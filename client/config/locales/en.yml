@@ -1,0 +1,19 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+en:
+  simple_form:
+      labels:
+        search:
+          orig: 'From:'
+          dest: 'To:'
+  errors:
+    messages:
+      inequality: 'Origin and destination cities must be different'
+  activemodel:
+    errors:
+      models:
+        search:
+          attributes:
+            date:
+              on_or_after: Departing date must be greater or equal to current date and less than a year in advance

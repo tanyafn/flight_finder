@@ -1,0 +1,49 @@
+/*
+ * This is a manifest file that'll automatically include all the stylesheets available in this directory
+ * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
+ * the top of the compiled file, but it's generally better to create a new file per style scope.
+ *= require_self
+ *= require_tree .
+ *= require bootstrap_and_overrides
+*/
+form {
+  padding-top: 30px;
+}
+select#search_date_3i {
+  width: 75px;
+}
+select#search_date_2i {
+  width: 110px;
+}
+select#search_date_1i {
+  width: 90px;
+}
+.search_orig, .search_dest {
+  width: 300px;
+  display: inline-block;
+}
+.search_price, .search_duration, .search_stops_count {
+  width: 205px;
+  display: inline-block;
+}
+div.flight {
+  margin: 0 0 10px 0;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background: #f5f5f5;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+table.flight {
+  width: 100%;
+}
+
+table.flight td {
+  padding: 8px;
+}
+
+table.general td, th, table.itinerary td, table.duration td {
+  padding: 0;
+  white-space: nowrap;
+  text-align: center;
+}

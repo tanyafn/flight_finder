@@ -1,0 +1,22 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+en:
+  matchers:
+      validate_inequality_of:
+        failure_message: "Expected that object is invalid when its attributes %{of_attr} and %{to_attr} are the same, but it doesn't. The attributes values are %{val1} and %{val2}, correspondingly."
+  mongoid:
+    errors:
+      models:
+        comparison: "is invalid"
+        equal_to: "%{f1} must be equal to %{f2}, but it doesn't"
+        inequal_to: "%{f1} must be inequal to %{f2}, but it doesn't"
+        greater_than: "%{f1} must be greater than %{f2}, but it doesn't"
+        less_than: "%{f1} must be less than %{f2}, but it doesn't"
+        segment:
+          attributes:
+            departing_at:
+              on_or_after: "must be at least 4 hours from now"
+              before: "must be at most 1 year from now "
+        inequality: "%{of} and %{to} can not be the same."
+        equality: "%{class1} %{field1} must be equal to %{field2} of %{class2}"
+        iata_format: "invalid format. must be an IATA airport code format."

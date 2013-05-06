@@ -1,0 +1,23 @@
+.flight.span8
+  %table.flight
+    %tr
+      %td= itinerary_counter + 1
+      %td
+        %table.general
+          %tr
+            %th= flight_caption itinerary.orig, itinerary.dest
+          %tr
+            %th= itinerary.price.to_i
+      %td
+        %table.itinerary
+          - itinerary.segments.each do |segment|
+            %tr
+              %td= flight_segment_info(segment.orig, segment.dest, segment.departing_at, segment.arriving_at)
+      %td
+        %table.duration
+          %tr
+            %td= timespan_in_words(itinerary.duration)
+      %td
+        %table.stopovers
+          %tr
+            %td= stopovers_info itinerary.segments

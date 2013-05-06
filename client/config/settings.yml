@@ -1,0 +1,31 @@
+development:
+  site_uri: 'http://localhost:3000'
+production:
+  site_uri: 'http://guarded-springs-8439.herokuapp.com'
+test:
+  site_uri: 'http://localhost:3000'
+itineraries_uri: '/itineraries/%{orig}/%{dest}/%{date}'
+min_duration: 1
+max_duration: 72
+min_stops_count: 0
+max_stops_count: 3
+min_price: 1
+max_price: 5000
+handled_error: 'We are sorry, but something went wrong. Please, try again later'
+non_stop: 'Non-stop'
+stop_params: [["nonstop", 0], ["upto 1", 1], ["upto 2", 2], ["upto 3", 3]]
+cities:
+  Bangkok: BKK
+  Beijing: PEK
+  Denpasar: DPS
+  Ho Chi Min: SGN
+  Hongkong: HKG
+  Jakarta: JKT
+  Kuala-Lumpur: KLA
+  Manila: MNL
+  Osaka: KIX
+  Seoul: GMP
+  Shanghai: SHA
+  Singapore: SIN
+  Taipei: TSA
+  Tokio: HND

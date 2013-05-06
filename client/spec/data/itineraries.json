@@ -1,0 +1,47 @@
+[{
+    "_id":"515c2ad18c28ea7ae9000001",
+    "orig":"KJA",
+    "dest":"BKK",
+    "departing_at":"2013-04-03T13:12:49Z",
+    "arriving_at":"2013-04-03T17:12:49Z",
+    "date":"2013-04-03",
+    "duration":4,
+    "price":170.0,
+    "stops_count":0,
+    "segments":[
+        {
+            "_id":"515c2ad18c28ea7ae9000002",
+            "arriving_at":"2013-04-03T17:12:49Z",
+            "departing_at":"2013-04-03T13:12:49Z",
+            "orig":"KJA",
+            "dest":"BKK",
+            "number":null}]
+},
+{
+    "_id":"515c2ad18c28ea7ae9000003",
+    "orig":"KJA",
+    "dest":"PEK",
+    "departing_at":"2013-04-03T15:12:49Z",
+    "arriving_at":"2013-04-03T23:12:49Z",
+    "date":"2013-04-03",
+    "duration":14,
+    "price":160.0,
+    "stops_count":1,
+    "segments":[
+        {
+            "_id":"515c2ad18c28ea7ae9000004",
+            "arriving_at":"2013-04-03T17:12:49Z",
+            "departing_at":"2013-04-03T15:12:49Z",
+            "orig":"KJA",
+            "dest":"PEK",
+            "number":null
+        },
+        {
+            "_id":"515c2ad18c28ea7ae9000004",
+            "arriving_at":"2013-04-03T23:12:49Z",
+            "departing_at":"2013-04-03T19:12:49Z",
+            "orig":"PEK",
+            "dest":"BKK",
+            "number":null
+        }]
+}]

@@ -1,0 +1,13 @@
+site_uri: 'http://localhost:3000'
+import_uri: '/itineraries/import'
+min_timespan: 2
+max_timespan: 24
+min_price: 0
+max_price: 5000
+min_stops_count: 0
+max_stops_count: 3
+min_duration: 300
+max_duration: 259200
+errors:
+  invalid_params: 'Invalid search params'
+  unexpected_error: 'Unexpected error occured'

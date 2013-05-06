@@ -1,0 +1,19 @@
+source 'https://rubygems.org'
+
+ruby "1.9.3"
+
+gem 'rails', '3.2.13'
+gem 'mongoid'
+gem 'rspec-rails'
+gem 'fabrication'
+gem 'database_cleaner'
+gem 'shoulda'
+gem 'mongoid-rspec'
+gem 'fabrication'
+gem 'forgery'
+gem 'validates_timeliness'
+gem 'timecop'
+gem 'rails_config'
+gem 'rb-readline'
+gem 'thin'
+gem 'fakeweb'

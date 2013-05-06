@@ -1,0 +1,7 @@
+= render 'search'
+- if @err.present?
+  =render "itineraries/error"
+-else
+  %h3 Found Flights
+  = render(@itineraries) || "No flights found. Please, change search parameters, and try again."
+
