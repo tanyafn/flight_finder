@@ -45,8 +45,5 @@ http = Net::HTTP.new(uri.host, uri.port)
 http.read_timeout = nil
 http.start do |http|
   headers = { "Content-Type" => "application/json", "Accepts" => "application/json" }
-  a = Time.now
-  puts a
   http.post(uri.request_uri, get_flights_json, headers)
-  puts (Time.now - a).to_s
 end
